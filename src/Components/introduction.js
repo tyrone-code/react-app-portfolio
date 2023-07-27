@@ -9,11 +9,10 @@ export default function AboutMe() {
         <div><img src={profilePicture}/></div>
         <div>
           <h1>Hi i'm Tyrone Schoeman</h1>
-          <p>I'm a 3rd year Computer Engineering student at The University of Waterloo who is looking to create and be a part of tomorrows future. I am a passionate and energetic person with a love for learning new things and meeting new people.</p>
+          <p>Lo ion ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       
-      <p>Some of my interests include playing tennis, trying new recipes from Mastering The Art of French Cooking, Photoshopping myself into surreal scenes, renaissance artwork, and literature of all kinds.</p>
-      
-      <p>I created this website as a way to promote some of the projects and experiences that I've been fortunate enough to be apart of. I am actively looking for new opportunities and acquaintances, please contact me!</p>
+<p>em ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt rem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>      
+<p>labore et dis no aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia des</p>
       </div>
       </div>
       </div>

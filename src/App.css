@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+
 * {
   margin: 2px;
   padding: 2px;
   box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -52,9 +58,9 @@
   display: flex;
   margin-top:4rem;
 }
-.flex-container > div {
+/* .flex-container > div {
 
-}
+} */
 
 .flex-container img {
   width:30rem;
@@ -72,4 +78,47 @@
 .flex-container h1 {
 
   margin-left:150px;
+}
+.topnav {
+ 
+  overflow: hidden;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  text-decoration: underline;
+}
+
+/* Add a color to the active/current link */
+
+
+.flex-container-skills {
+  display: flex;
+
+}
+
+.flex-container-skills > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.flex-container-skills img {
+  max-height: 200px;
+  max-width: 200px;
+  object-fit: cover;
+  background-size: cover;
 }
