@@ -1,9 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-
+import React from 'react';
+import About from './Components/introduction'
 function App() {
   return (
-   <h1>Hello world!</h1>
+     <div>
+    <About/>
+    </div>
+
   );
 }
 
