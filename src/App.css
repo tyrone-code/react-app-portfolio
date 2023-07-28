@@ -181,7 +181,7 @@
   position:relative;
   height:40px;
   top:470px;
-  right:330px;
+  right:365px;
 }
 
 
@@ -203,13 +203,13 @@
 
 .flex-container-projects {
   display: flex;
-  background-color: DodgerBlue;
+
   position: relative;
   top:150px;
 }
 
 .flex-container-projects > div {
-  background-color: #f1f1f1;
+  background-color: #ebebeb;
   margin: 10px;
   padding: 20px;
   font-size: 30px;
@@ -221,4 +221,50 @@
   max-width: 370px;
   object-fit: cover;
 
+}
+.flex-container-projects img:hover {
+transform:scale(1.1);
+transition:0.5s;
+z-index:102
+
+}
+
+
+p {
+  font-size: 17px;
+}
+
+
+.flex-container-contact {
+  display: flex;
+  background-color: DodgerBlue;
+  position:relative;
+  top:220px;
+  list-style: none;
+}
+
+.flex-container-contact > div {
+  background-color: #f1f1f1;
+  width: 250px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  list-style: none;
+}
+
+
+
+.contact-me-heading{
+  font-size: xx-large;
+  height:70px;
+  text-align: center;
+  position:relative;
+  top:130px;
+
+}
+
+
+.phone{
+  font-size: 10px;
 }

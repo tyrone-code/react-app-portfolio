@@ -1,5 +1,7 @@
 import React from 'react';
 import ssgportfolio from '../images/ssg-portfolio-picture.png'
+import heartsoulFoundation from '../images/heart-and-soul-foundation-project.png'
+import rockpaperscissors from '../images/rock-paper-scissors-project.png'
 
 export default function projects(){
     return (
@@ -7,10 +9,11 @@ export default function projects(){
        <h2 className="my-projects-heading">My projects</h2>
         <div class="flex-container-projects">
           
-        <div><img src={ssgportfolio}alt="logos-html"/></div>
-        <div><img src={ssgportfolio}alt="logos-html"/></div>
-        <div><img src={ssgportfolio}alt="logos-html"/></div>
+        <div><a href="https://ssgattorneys.co.za" ><img src={ssgportfolio}alt="logos-html1"/></a> <p>Freelance project</p></div>
+        <div><a href="https://heartandsoulfoundation.org.za"><img src={heartsoulFoundation}alt="logos-html2"/></a> <p>Freelance project (charity non-profit)</p></div>
+        <div><a href= "https://tyrone-code.github.io/RockPaperScissors/"> <img src={rockpaperscissors}alt="logos-html3"/></a> <p>Personal project</p></div>
       </div>
       </div>
     )
   }
+

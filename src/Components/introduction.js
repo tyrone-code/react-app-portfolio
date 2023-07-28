@@ -10,8 +10,9 @@ export default function AboutMe() {
         <div><img src={profilePicture} alt="profile-picture"/></div>
           <div className="socials-container">
           <ul className='socials'>
-          <li><a href='#'><i className="fa fa-github"></i></a></li>
+          <li><a href='https://github.com/tyrone-code'><i className="fa fa-github"></i></a></li>
                 <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                <li><a href="#"><i class="fa fa-envelope-square"></i></a></li>
           </ul>
           </div>
         <div className="about-me">
