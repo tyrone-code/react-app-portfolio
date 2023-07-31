@@ -8,7 +8,7 @@ import CSS from '../images/css-icon.png'
 import JS from '../images/javascript-icon.png'
 import Git from '../images/git-icon.png'
 import ReactLogo from '../images/react-icon.png'
-export default function mySkills() {
+export default function Myskills() {
     return (
         <>
         <h2 className="my-skills-heading">My Skills</h2>

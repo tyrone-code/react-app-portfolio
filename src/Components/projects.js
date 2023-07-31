@@ -3,7 +3,7 @@ import ssgportfolio from '../images/ssg-portfolio-picture.png'
 import heartsoulFoundation from '../images/heart-and-soul-foundation-project.png'
 import rockpaperscissors from '../images/rock-paper-scissors-project.png'
 
-export default function projects(){
+export default function Projects(){
     return (
         <div>
        <h2 className="my-projects-heading">My projects</h2>

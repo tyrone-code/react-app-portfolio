@@ -1,29 +1,36 @@
 import React from 'react';
-
-
-export default function contact(){
+import phone from '../images/icons8-phone-100.png'
+import email from '../images/icons8-envelope-100.png'
+import linkedin from '../images/icons8-linkedin-100.png'
+export default function Contact(){
     return (
-        <div>
-        <h2 className="contact-me-heading">Contact me</h2>
-        <div className="flex-container-contact">
-            <div><li><a href='https://github.com/tyrone-code'><i className="fa fa-phone"></i></a><p className='phone'>Ph: 27+ 64 904 8321</p></li></div>
-            <div><li><a href='https://github.com/tyrone-code'><i className="fa fa-envelope"></i></a></li></div>
-            <div><li><a href='https://github.com/tyrone-code'><i className="fa fa-linkedin"></i></a></li></div>
-            <div>4</div>
-            </div>
+       <div>
+        <h2 className="my-contact-heading">Contact me</h2>
+        <div className="contact-container">
+      <div className="flex-container-contact">
+  <div>
+    <img src={phone} alt='phone' className="phone"/>
+    <p className="text">082 651 8534</p>
+  </div>
+  <div><img src={email} alt='email'/>
+  <p className="text">tyronessglaw@gmail.com</p>
+  </div>
+ 
+  <div><img src={linkedin} alt='linkedin' className="linkedIn"/>
+  <p className="text">Tyrone Schoeman</p>
+
+  </div>
+  </div>
 
 
-        
-        </div>
+
+
+
+
+       </div>
+       </div>
     )
   }
 
 
 
-  {/* <h1>Contact me</h1>
-      <ul className="socials-contact">
-      <li><a href='https://github.com/tyrone-code'><i className="fa fa-github"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-                <li><a href="#"><i class="fa fa-envelope-square"></i></a></li>
-          </ul>
-      </div> */}

@@ -181,7 +181,7 @@
   position:relative;
   height:40px;
   top:470px;
-  right:365px;
+  right:355px;
 }
 
 
@@ -233,38 +233,55 @@ z-index:102
 p {
   font-size: 17px;
 }
-
-
-.flex-container-contact {
-  display: flex;
-  background-color: DodgerBlue;
-  position:relative;
-  top:220px;
-  list-style: none;
-}
-
-.flex-container-contact > div {
-  background-color: #f1f1f1;
-  width: 250px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-  list-style: none;
-}
-
-
-
-.contact-me-heading{
+  
+.my-contact-heading {
   font-size: xx-large;
   height:70px;
   text-align: center;
   position:relative;
-  top:130px;
+  top:160px;
+
+}
+
+.flex-container-contact {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.flex-container-contact img {
+  width:50px;
+}
+.flex-container-contact > div {
+
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
+.text {
+  font-size: 18px;
+  float: right;
+  position:relative;
+  top:-10px;
 
 }
 
 
-.phone{
-  font-size: 10px;
+.contact-container {
+  position:relative;
+  top:200px;
+}
+
+.phone {
+  position:relative;
+  left:50px;
+}
+
+.linkedIn{
+  position:relative;
+  left:40px;
 }
