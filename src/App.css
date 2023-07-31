@@ -82,6 +82,38 @@
 
   margin-left:150px;
 }
+
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+
+  }
+  .flex-container img {
+    width:15rem;
+    border-radius: 100%;
+    margin-left:3rem;
+  }
+  
+  .flex-container p {
+    width:315px;
+    font-size:20px;
+    margin-left:120px;
+    margin-top:20px;
+
+  }
+  
+  .flex-container h1 {
+  
+    margin-left:150px;
+  }
+
+}
+
+
+
+
+
 .topnav {
  
   overflow: hidden;
@@ -128,9 +160,48 @@
   background-size: cover;
 }
 
-.git-logo{
+
+
+.my-skills-heading {
+  font-size: xx-large;
+  height:70px;
+  text-align: center;
   position:relative;
-  top:50px;
+  top:130px;
+
+}
+@media (max-width: 800px) {
+  .my-skills-heading {
+    font-size: xx-large;
+    height:10px;
+    text-align: center;
+    position:relative;
+    margin-top: -60px;
+    
+
+  }
+
+
+
+
+.flex-container-skills {
+  display: flex;
+  flex-direction: column;
+position: relative;
+bottom:10px;
+}
+
+.flex-container-skills > div {
+  position:relative;
+  left:90px;
+  width:140px;
+}
+
+.flex-container-skills img {
+  object-fit: cover;
+  background-size: cover;
+  width:  80px;
+  height: 80px;
 
 }
 
@@ -141,6 +212,8 @@
   text-align: center;
   position:relative;
   top:130px;
+
+}
 
 }
 
@@ -183,6 +256,54 @@
   top:470px;
   right:355px;
 }
+
+@media (max-width: 800px) {
+
+
+  .socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+ 
+  }
+  .socials li{
+    margin: 0 10px;
+
+  }
+  .socials a{
+    text-decoration: none;
+    color: #0f0f0f;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+
+  
+  }
+  .socials a i{
+    font-size: 3rem;
+    width: 20px;
+  position: relative;
+    transition: color .4s ease;
+    left:350px;
+  bottom:50px;
+  
+  }
+  .socials a:hover i{
+    color: aqua;
+  
+  }
+  
+  
+  .socials-container{
+    position:relative;
+    height:200px;
+    top:60px;
+  }
+
+}
+
 
 
 
@@ -229,6 +350,52 @@ z-index:102
 
 }
 
+@media (max-width: 800px) {
+  .my-projects-heading {
+    font-size: xx-large;
+    height:70px;
+    text-align: center;
+    position:relative;
+    top:100px;
+  
+  }
+  
+  .flex-container-projects {
+    display: flex;
+  flex-direction: column;
+  
+    position: relative;
+    top:70px;
+  }
+  
+  .flex-container-projects > div {
+    background-color: #ebebeb;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+   
+  }
+  
+  .flex-container-projects img {
+    max-height: 250px;
+    max-width: 250px;
+    object-fit: cover;
+  
+  }
+  .flex-container-projects img:hover {
+  transform:scale(1.1);
+  transition:0.5s;
+  z-index:102
+  
+  }
+
+}
+
+
+
+
+
+
 
 p {
   font-size: 17px;
@@ -266,7 +433,16 @@ p {
   font-size: 18px;
   float: right;
   position:relative;
-  top:-10px;
+  top:-15px;
+
+}
+
+.text-2 {
+  font-size: 18px;
+  float: right;
+  position:relative;
+  top:-100px;
+  left:80px;
 
 }
 
@@ -284,4 +460,120 @@ p {
 .linkedIn{
   position:relative;
   left:40px;
+}
+
+.email{
+  position:relative;
+  left:-40px;
+}
+
+
+  
+.dont-hesitate {
+  font-size: 15px;
+  height:20px;
+  text-align: center;
+  position:relative;
+  top:160px;
+
+}
+
+
+@media (max-width: 800px){
+  p {
+    font-size: 17px;
+  }
+    
+  .my-contact-heading {
+    font-size: xx-large;
+    height:70px;
+    text-align: center;
+    position:relative;
+    top:60px;
+  
+  
+  }
+  
+  .flex-container-contact {
+    display: flex;
+    flex-direction: column;
+ 
+    position: relative;
+    bottom:90px;
+  }
+  
+  .flex-container-contact img {
+    width:40px;
+    
+  }
+  .flex-container-contact > div {
+  
+    width: 300px;
+    margin: 10px;
+    height:100px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+
+    position: relative;
+    right:10px;
+    
+  }
+  
+  
+  .text {
+    font-size: 18px;
+    float: right;
+    position:relative;
+    top:-15px;
+    right:30px;
+  
+  }
+  
+  .text-2 {
+    font-size: 18px;
+    float: right;
+    position:relative;
+    top:-10px;
+    left:39px;
+
+  
+  }
+  
+  
+  .contact-container {
+    position:relative;
+    top:200px;
+
+  }
+  
+  .phone {
+    position:relative;
+    left:-10px;
+  }
+  
+  .linkedIn{
+    position:relative;
+    left:8px;
+
+  }
+  
+  .email{
+    position:relative;
+    left:40px;
+
+  }
+  
+  
+    
+  .dont-hesitate {
+    font-size: 15px;
+    height:20px;
+    text-align: center;
+    position:relative;
+    top:70px;
+
+  
+  }
+  
 }

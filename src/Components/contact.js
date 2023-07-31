@@ -6,18 +6,19 @@ export default function Contact(){
     return (
        <div>
         <h2 className="my-contact-heading">Contact me</h2>
+        <p className="dont-hesitate" id="contact">If you would like to get in contact with me please don't hesistate.</p>
         <div className="contact-container">
       <div className="flex-container-contact">
   <div>
     <img src={phone} alt='phone' className="phone"/>
-    <p className="text">082 651 8534</p>
+   <a href="tel:+27649048321"> <p className="text">064 904 8321</p></a>
   </div>
-  <div><img src={email} alt='email'/>
-  <p className="text">tyronessglaw@gmail.com</p>
+  <div><img src={email} alt='email' className="email"/>
+  <a href="mailto:tyronessglaw@gmail.com"><p className="text-2">tyronessglaw@gmail.com</p></a>
   </div>
  
   <div><img src={linkedin} alt='linkedin' className="linkedIn"/>
-  <p className="text">Tyrone Schoeman</p>
+ <a href="https://www.linkedin.com/in/tyrone-schoeman-821633163"> <p className="text">Tyrone Schoeman</p></a>
 
   </div>
   </div>

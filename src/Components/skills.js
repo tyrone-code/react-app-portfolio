@@ -10,8 +10,8 @@ import Git from '../images/git-icon.png'
 import ReactLogo from '../images/react-icon.png'
 export default function Myskills() {
     return (
-        <>
-        <h2 className="my-skills-heading">My Skills</h2>
+        <div>
+        <h2 className="my-skills-heading" id="skills">My Skills</h2>
     <div className="flex-container-skills">
     <div><img src={Html}alt="logos-html"/></div>
     <div><img src={CSS}alt="logos-css"/></div>
@@ -20,7 +20,7 @@ export default function Myskills() {
     <div><img src={ReactLogo}alt="logos-react"/></div>  
     </div>
 
-        </>
+        </div>
 
     )
   }

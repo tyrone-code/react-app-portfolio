@@ -6,7 +6,7 @@ import rockpaperscissors from '../images/rock-paper-scissors-project.png'
 export default function Projects(){
     return (
         <div>
-       <h2 className="my-projects-heading">My projects</h2>
+       <h2 className="my-projects-heading" id="projects">My projects</h2>
         <div class="flex-container-projects">
           
         <div><a href="https://ssgattorneys.co.za" ><img src={ssgportfolio}alt="logos-html1"/></a> <p>Freelance project</p></div>
