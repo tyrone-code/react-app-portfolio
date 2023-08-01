@@ -2,6 +2,8 @@ import React from 'react';
 import phone from '../images/icons8-phone-100.png'
 import email from '../images/icons8-envelope-100.png'
 import linkedin from '../images/icons8-linkedin-100.png'
+
+
 export default function Contact(){
     return (
        <div>
@@ -19,17 +21,13 @@ export default function Contact(){
  
   <div><img src={linkedin} alt='linkedin' className="linkedIn"/>
  <a href="https://www.linkedin.com/in/tyrone-schoeman-821633163"> <p className="text">Tyrone Schoeman</p></a>
-
+ <button className="cv-download">
+      <a href={linkedin} download="CV" className="download-link">C.V</a>
+  </button>
   </div>
   </div>
-
-
-
-
-
-
-       </div>
-       </div>
+  </div>
+  </div>
     )
   }
 

@@ -631,3 +631,20 @@ input[type=submit]:hover {
   position:relative;
   top:10px;
 }
+
+
+.cv-download{
+  background-color: #4CAF50; /* Green */
+  text-decoration: none;
+  border: none;
+  height:2rem;
+  width:5rem;
+  position:relative;
+  right:24rem;
+  bottom:3rem;
+}
+
+
+.download-link {
+  text-decoration: none;
+}
