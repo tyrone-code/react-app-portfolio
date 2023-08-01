@@ -17,10 +17,11 @@ export default function AboutMe() {
           </div>
         <div className="about-me" id="about">
           <h1>Hi i'm Tyrone Schoeman</h1>
-          <p>Lo ion ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>I am a self-taught front-end web developer based in Krugersorp Gauteng. I formally worked as a paralegal before switching careers to front web development. My goal is looking to become fullstack developer and then eventually specialize in backend development.</p>
       
-<p>em ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt rem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>      
-<p>labore et dis no aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia des</p>
+<p>I have created three projects with foundational fundamental html, css and javascript which you can see at the project section. The current portfolio website you are currently viewing is made with react library.</p>      
+<p>During my free time, I enjoy gaming and watching sports,  Additionally, I love camping and have a deep appreciation for nature, often finding joy in hiking through its scenic beauty.</p>
+<p>This website was crafted with the purpose of showcasing the projects and experiences I've been fortunate to be a part of. Currently, I am actively seeking new opportunities and connections, so please feel free to get in touch with me!</p>
       </div>
       </div>
       </div>

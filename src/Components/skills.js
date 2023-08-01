@@ -16,7 +16,7 @@ export default function Myskills() {
     <div><img src={Html}alt="logos-html"/></div>
     <div><img src={CSS}alt="logos-css"/></div>
     <div><img src={JS}alt="logos-js"/></div>  
-    <div><img src={Git} class="git-logo"alt="logos-git"/></div>
+    <div><img src={Git} className="git-logo" alt="logos-git"/></div>
     <div><img src={ReactLogo}alt="logos-react"/></div>  
     </div>
 

@@ -110,7 +110,11 @@
 
 }
 
+.git-logo {
+  position: relative;
+  top:50px;
 
+}
 
 
 
@@ -311,8 +315,11 @@ bottom:10px;
 
   position:relative;
   right:120px;
+  bottom:50px;
 }
-
+.about-me p{
+  font-size: 18px;
+}
 .my-projects-heading {
   font-size: xx-large;
   height:70px;
@@ -576,4 +583,51 @@ p {
   
   }
   
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #d8d8d8;
+  padding: 20px;
+  position:relative;
+  top:120px;
+}
+
+
+.submission {
+  position:relative;
+  top:150px;
+  font-size: 32px;
+  left:380px;
+  color: #04AA6D;
+}
+
+.gap {
+  height:10rem;
+  position:relative;
+  top:10px;
 }
