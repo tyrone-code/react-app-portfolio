@@ -2,13 +2,13 @@ import React from 'react';
 import phone from '../images/icons8-phone-100.png'
 import email from '../images/icons8-envelope-100.png'
 import linkedin from '../images/icons8-linkedin-100.png'
-
+import CV from '../images/tyronecv.pdf'
 
 export default function Contact(){
     return (
        <div>
         <h2 className="my-contact-heading">Contact me</h2>
-        <p className="dont-hesitate" id="contact">If you would like to get in contact with me please don't hesistate.</p>
+        <p className="dont-hesitate" id="contact">If you would like to get in contact with me please don't hesitate.</p>
         <div className="contact-container">
       <div className="flex-container-contact">
   <div>
@@ -22,7 +22,7 @@ export default function Contact(){
   <div><img src={linkedin} alt='linkedin' className="linkedIn"/>
  <a href="https://www.linkedin.com/in/tyrone-schoeman-821633163"> <p className="text">Tyrone Schoeman</p></a>
  <button className="cv-download">
-      <a href={linkedin} download="CV" className="download-link">C.V</a>
+      <a href={CV} download="CV" className="download-link">C.V</a>
   </button>
   </div>
   </div>

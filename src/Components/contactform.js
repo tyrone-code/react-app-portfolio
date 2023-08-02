@@ -14,6 +14,7 @@ export default function ContactForm() {
   }
   return (
     <div>
+    <div>
       <form onSubmit={handleSubmit} className="container">
       <label htmlFor="email">
         Email Address
@@ -42,7 +43,9 @@ export default function ContactForm() {
         Submit
       </button>
     </form>
-    <div className="gap">.</div>
+
     </div>
+
+        </div>
   );
 }

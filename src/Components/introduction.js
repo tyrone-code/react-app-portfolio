@@ -17,7 +17,7 @@ export default function AboutMe() {
           </div>
         <div className="about-me" id="about">
           <h1>Hi i'm Tyrone Schoeman</h1>
-          <p>I am a self-taught front-end web developer based in Krugersorp Gauteng. I formally worked as a paralegal before switching careers to front-end web development. My goal is looking to become fullstack developer and then eventually specialize in backend development.</p>
+          <p>I am a self-taught front-end web developer based in Krugersdorp Gauteng. I formally worked as a paralegal before switching careers to front-end web development. My goal is looking to become fullstack developer and then eventually specialize in backend development.</p>
       
 <p>I have created three projects with foundational fundamental html, css and javascript which you can see at the <a href="#projects">project section.</a> The current portfolio website you are currently viewing is made with the react library.</p>      
 <p>During my free time, I enjoy gaming and watching sports,  additionally, I love camping and have a deep appreciation for nature, often finding joy in hiking through its scenic beauty.</p>
